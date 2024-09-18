@@ -1,0 +1,4 @@
+db.orders.find().pretty()
+show collections
+use shopping_cart
+show dbs
