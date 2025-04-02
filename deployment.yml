@@ -15,6 +15,13 @@ spec:
       containers:
       - name: cart-app
         image: yukc09/ecommer:latest
+        resources:
+          requests:
+            cpu: 50m
+            memory: 128Mi 
+          limits:
+            cpu: 100m  
+            memory: 200Mi
         ports:
         - containerPort: 3000
         env:
