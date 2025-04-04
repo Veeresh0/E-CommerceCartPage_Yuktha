@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cart-app-configmap
+data:
+  MONGODB_URI: "mongodb://mongodb:27017/shopping_cart"
+  PORT: "3000"
+
